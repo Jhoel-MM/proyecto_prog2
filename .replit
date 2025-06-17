@@ -1,0 +1,4 @@
+run = "python proyec.py"
+modules = ["python-3.11"]
+[nix]
+packages = ["run"]
