@@ -119,7 +119,7 @@ cargar_inventario()
 ventana = tk.Tk()
 ventana.title("🍎 Inventario de Frutas")
 ventana.configure(bg="#f0f5f5")
-ventana.geometry("600x500")
+ventana.geometry("550x500")
 
 tk.Label(ventana, text="Fruta:", bg="#f0f5f5").pack(pady=(10,0))
 entrada_fruta = tk.Entry(ventana, width=30)
